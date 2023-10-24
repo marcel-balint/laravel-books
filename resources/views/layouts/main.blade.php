@@ -12,9 +12,11 @@
         'current_page' => $current_page
     ])
     @yield('content')
-<div id="partners"></div>
+    <div id="partners"></div>
+    <div id="latest-books"></div>
     @viteReactRefresh
     @vite('resources/css/app.scss')
     @vite('resources/js/partners.jsx')
+    @vite('resources/js/latest-books.jsx')
 </body>
 </html>
